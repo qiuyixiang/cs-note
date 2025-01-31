@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "5e71ee42cf604c29",
+        "id": "c149e26b07270022",
         "type": "tabs",
         "children": [
           {
-            "id": "a5376e7506d7cee8",
+            "id": "dd5bd6fbf4450288",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "164ff2805f598d91",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "Road Map"
-            }
-          },
-          {
-            "id": "36fc80ede2128889",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "architecture/RISC-V.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RISC-V"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "architecture/RISC-V.md"
+                "file": "Road Map.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of RISC-V"
+              "title": "Outline of Road Map"
             }
           }
         ],
@@ -177,13 +177,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36fc80ede2128889",
+  "active": "164ff2805f598d91",
   "lastOpenFiles": [
+    "README.md",
+    "Road Map.md",
     "architecture/X86-64.md",
     "tools/Binutils.md",
     "tools/GCC.md",
     "tools/Git.md",
-    "README.md",
     "tools/Makefile.md",
     "tools/GDB.md",
     "tools/Docker.md",
