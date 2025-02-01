@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Road Map.md",
+                "file": "Tools/Git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Road Map"
+              "title": "Git"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Road Map.md"
+                "file": "Tools/Git.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Road Map"
+              "title": "Outline of Git"
             }
           }
         ],
@@ -179,8 +179,10 @@
   },
   "active": "164ff2805f598d91",
   "lastOpenFiles": [
-    "README.md",
     "Road Map.md",
+    "Tools/Git.md",
+    "Tools",
+    "README.md",
     "architecture/X86-64.md",
     "tools/Binutils.md",
     "tools/GCC.md",
@@ -188,7 +190,6 @@
     "tools/Makefile.md",
     "tools/GDB.md",
     "tools/Docker.md",
-    "Road Map.md",
     "architecture/RISC-V.md",
     "architecture",
     "kernel",
