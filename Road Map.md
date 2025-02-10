@@ -67,6 +67,17 @@ Advanced Courses are topic-focused, mainly focused on operating system, distribu
 
 # Projects
 
+Here is the overview of the projects list
+
+- Library
+	- qlibc             A C standard library
+	- qlibcxx         A C++ Standard library
+
+- Tools
+	- gitlet           A Distributed Version Control System
+
+
+
 
 
 # Books

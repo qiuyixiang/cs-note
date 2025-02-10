@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d21f71eaf7b4eefe",
+        "id": "143ad6e205c1cbf8",
         "type": "tabs",
         "children": [
           {
-            "id": "aab98609a1236d32",
-            "type": "leaf",
-            "state": {
-              "type": "pkmer-downloader",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "899a8684a5ee8bb5",
+            "id": "78c49ffe1251c363",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +21,7 @@
               "title": "Git"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,12 +162,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "899a8684a5ee8bb5",
+  "active": "78c49ffe1251c363",
   "lastOpenFiles": [
-    "Tools/Image/git_02.png",
-    "Road Map.md",
-    "README.md",
+    "Mathematics/Calculus/Single Variable Calculus.pdf",
+    "Mathematics/Calculus/Single_Variable_Calculus.pdf",
+    "Mathematics/Calculus",
+    "Mathematics",
     "Tools/Git.md",
+    "Tools/Image/git_03.png",
+    "Road Map.md",
+    "Tools/Image/git_02.png",
+    "README.md",
     "Tools/Image",
     "Tools/Image/git_01.png",
     "Tools/Img/Git/file_state.png",
@@ -198,9 +192,6 @@
     "tools/GDB.md",
     "tools/Docker.md",
     "architecture/RISC-V.md",
-    "architecture",
-    "kernel",
-    "tools",
-    "LICENSE"
+    "architecture"
   ]
 }
