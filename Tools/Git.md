@@ -140,12 +140,60 @@ _git rm_ removes the files from the working tree and staging area.
 | --------------- | ------------------------------------------------------ |
 | git rm          | Remove the file from the working tree and staging area |
 | git rm --cached | Remove the file only from the staging area             |
+
+### log
+
+_git log_ display all the history of our committed history.
+
+
+### restore
+
+_git restore_ restore working tree files.
+
+
+| Option                                            | Usage                                                            |
+| ------------------------------------------------- | ---------------------------------------------------------------- |
+| git restore FILE_PATH                             | restore FILE_PATH from the latest commit                         |
+| git restore --source=COMMIT_ID FILE_PATH          | restore FILE_PATH from COMMIT_ID commit (local)                  |
+| git restore --source=REMOTE_NAME/BRANCH FILE_PATH | restore FILE_PATH from a remote repository and the latest commit |
+
 ## Branching
+
+### switch
+
+_git switch_ switch branches.
+
+| Option            | Usage                   |
+| ----------------- | ----------------------- |
+| git switch BRANCH | switch branch to BRANCH |
 
 
 ## Remote
 
+### remote
+_git remote_ manage set of tracked repositories.
 
 
+| Option                  | Usage                                         |
+| ----------------------- | --------------------------------------------- |
+| git remote -v           | show the remote repositories                  |
+| git remove add NAME URL | add remote repository using NAME and from URL |
 
 
+### push
+
+_git push_ update remote repository from local repository.
+
+| Option                      | Usage                                          |
+| --------------------------- | ---------------------------------------------- |
+| git push REMOTE_NAME BRANCH | push commits to specific branch in remote name |
+|                             |                                                |
+
+### pull
+
+_git pull_  update local repository from remote repository.
+
+| Option                      | Usage                                            |
+| --------------------------- | ------------------------------------------------ |
+| git pull REMOTE_NAME BRANCH | pull commits from specific branch in remote name |
+|                             |                                                  |

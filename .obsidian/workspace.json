@@ -164,15 +164,15 @@
   },
   "active": "78c49ffe1251c363",
   "lastOpenFiles": [
+    "Road Map.md",
+    "Tools/Git.md",
+    "README.md",
     "Mathematics/Calculus/Single Variable Calculus.pdf",
     "Mathematics/Calculus/Single_Variable_Calculus.pdf",
     "Mathematics/Calculus",
     "Mathematics",
-    "Tools/Git.md",
     "Tools/Image/git_03.png",
-    "Road Map.md",
     "Tools/Image/git_02.png",
-    "README.md",
     "Tools/Image",
     "Tools/Image/git_01.png",
     "Tools/Img/Git/file_state.png",
@@ -191,7 +191,6 @@
     "tools/Makefile.md",
     "tools/GDB.md",
     "tools/Docker.md",
-    "architecture/RISC-V.md",
-    "architecture"
+    "architecture/RISC-V.md"
   ]
 }
