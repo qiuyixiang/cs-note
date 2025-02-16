@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Git.md",
+                "file": "Road Map.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Road Map"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Git.md"
+                "file": "Road Map.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Git"
+              "title": "Outline of Road Map"
             }
           }
         ],
@@ -164,8 +164,10 @@
   },
   "active": "78c49ffe1251c363",
   "lastOpenFiles": [
-    "Road Map.md",
+    "Algorithm/Algorithm.pdf",
+    "Algorithm",
     "Tools/Git.md",
+    "Road Map.md",
     "README.md",
     "Mathematics/Calculus/Single Variable Calculus.pdf",
     "Mathematics/Calculus/Single_Variable_Calculus.pdf",
@@ -183,7 +185,6 @@
     "Tools/Img/Untitled.md",
     "Tools/Img",
     "Pasted image 20250201173804.png",
-    "Tools",
     "architecture/X86-64.md",
     "tools/Binutils.md",
     "tools/GCC.md",
