@@ -4,5 +4,6 @@
   ],
   "textFontFamily": "Annai MN",
   "cssTheme": "Blue Topaz",
-  "baseFontSize": 20
+  "baseFontSize": 20,
+  "theme": "moonstone"
 }

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "143ad6e205c1cbf8",
+        "id": "aa8bb8aa0b1c8f51",
         "type": "tabs",
         "children": [
           {
-            "id": "78c49ffe1251c363",
+            "id": "df76c91de86446f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Road Map.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Road Map"
+              "title": "New tab"
             }
           }
         ]
@@ -138,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Road Map.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Road Map"
+              "title": "Outline"
             }
           }
         ],
@@ -162,14 +156,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78c49ffe1251c363",
+  "active": "df76c91de86446f6",
   "lastOpenFiles": [
     "Algorithm/Algorithm.pdf",
-    "Algorithm",
+    "Mathematics/Single Variable Calculus.pdf",
+    "Mathematics/Single_Variable_Calculus.pdf",
+    "Mathematics/Calculus/Single Variable Calculus.pdf",
     "Tools/Git.md",
     "Road Map.md",
+    "Algorithm",
     "README.md",
-    "Mathematics/Calculus/Single Variable Calculus.pdf",
     "Mathematics/Calculus/Single_Variable_Calculus.pdf",
     "Mathematics/Calculus",
     "Mathematics",
@@ -181,9 +177,7 @@
     "Tools/Img/Git",
     "Tools/Img",
     "Pasted image 20250201173851.png",
-    "Tools/Img/git",
     "Tools/Img/Untitled.md",
-    "Tools/Img",
     "Pasted image 20250201173804.png",
     "architecture/X86-64.md",
     "tools/Binutils.md",
