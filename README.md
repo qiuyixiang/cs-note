@@ -1,2 +1,3 @@
 # CS-Note
-A Computer Science Note Repository.
+
+A Computer Science Note Repository. The 
