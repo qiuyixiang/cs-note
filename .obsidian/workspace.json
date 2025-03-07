@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/GCC.md",
+                "file": "Arch/X86.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GCC"
+              "title": "X86"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/GCC.md"
+                "file": "Arch/X86.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of GCC"
+              "title": "Outline of X86"
             }
           }
         ],
@@ -162,26 +162,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df76c91de86446f6",
+  "active": "bf99574b4e6c90a2",
   "lastOpenFiles": [
-    "README.md",
-    "Tools/GCC.md",
-    "Road Map.md",
+    "Arch/Image/i386_01.png",
+    "Arch/Image",
     "Tools/Git.md",
-    "Mathematics/Single Variable Calculus.pdf",
+    "Arch/X86.md",
+    "Arch/x86",
+    "Arch",
+    "Tools/GCC.md",
     "Algorithm/Algorithm.pdf",
+    "Mathematics/Single Variable Calculus.pdf",
+    "README.md",
+    "Road Map.md",
     "Mathematics/Single_Variable_Calculus.pdf",
     "Mathematics/Calculus/Single Variable Calculus.pdf",
     "Algorithm",
     "Mathematics/Calculus/Single_Variable_Calculus.pdf",
     "Mathematics/Calculus",
-    "Mathematics",
     "Tools/Image/git_03.png",
     "Tools/Image/git_02.png",
-    "Tools/Image",
     "Tools/Image/git_01.png",
     "Tools/Img/Git/file_state.png",
-    "Tools/Img/Git",
     "Pasted image 20250201173851.png",
     "Tools/Img/Untitled.md",
     "Pasted image 20250201173804.png",

@@ -157,6 +157,13 @@ _git restore_ restore working tree files.
 | git restore --source=COMMIT_ID FILE_PATH          | restore FILE_PATH from COMMIT_ID commit (local)                  |
 | git restore --source=REMOTE_NAME/BRANCH FILE_PATH | restore FILE_PATH from a remote repository and the latest commit |
 
+### reset
+_git reset_ reset current HEAD to the specified state
+
+| Option                                                        | Usage |
+| ------------------------------------------------------------- | ----- |
+| git reset --HARD COMMIT_ID Reset all files to the COMMIT_ID s |       |
+
 ## Branching
 
 ### switch
