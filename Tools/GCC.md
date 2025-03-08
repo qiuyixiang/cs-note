@@ -56,3 +56,66 @@ Directory Search Order
 
 
 ## Linker
+
+
+# Extension
+This section introduce some GNU GCC extension features for C and C++.
+
+## Inline Assembly
+
+The Template of inline assembly in GNU GCC is 
+```c
+asm volatile( assembler template
+    : output operands                   (optional)
+    : input operands                    (optional)
+    : clobbered registers list          (optional)
+    );
+```
+
+Variable Binding:
+- %0 must be the first output variable.
+- %1 - %9 can be either the rest output variables or the input variables.
+
+Below is the table for the general format binding of variables
+
+| Format  | Meaning                   | Range           |
+| ------- | ------------------------- | --------------- |
+| "r"(x)  | Input variable            | Input Operands  |
+| "=r"(x) | Output variable           | Output Operands |
+| "+r"(x) | Input and output variable | Output Operands |
+
+Here is a table of GNU inline assembly registers constraints.
+
+| Constraint | Meaning                                                    |
+| ---------- | ---------------------------------------------------------- |
+| a          | %eax                                                       |
+| b          | %ebx                                                       |
+| c          | %ecx                                                       |
+| d          | %edx                                                       |
+| S          | %esi                                                       |
+| D          | %edi                                                       |
+| r          | Any general purpose registers                              |
+| q          | %eax, %ebx, %ecx, %edx                                     |
+| m          | Memory                                                     |
+| i          | Immediate number                                           |
+| X          | Any operands (include immediate number, memory, registers) |
+| g          | Memory or registers                                        |
+
+In GCC 3.1 We can use a more readable way to bind variables
+```c
+int add(int EAX, int EBX){
+	int result;
+	asm volatile("movl %[input1], %[result] \n\t"
+	"addl %[input2], %[result]"
+	: [result] "=r" (result)
+	: [input1] "r" (EAX), [input2] "r" (EBX));
+	
+	return result;
+}
+```
+
+Explanation of the syntax:
+- [variable] : create a variable name which can be same as the C variable.
+- [variable] "=r" (variable) :  bind the variable in assembly to the actual C variable.
+
+These labels are in a namespace of their own, and will not collide with any C identifiers. The same can be done for input operands, too.

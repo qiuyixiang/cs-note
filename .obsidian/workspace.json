@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arch/X86.md",
+                "file": "Tools/GCC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "X86"
+              "title": "GCC"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arch/X86.md"
+                "file": "Tools/GCC.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of X86"
+              "title": "Outline of GCC"
             }
           }
         ],
@@ -162,19 +162,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf99574b4e6c90a2",
+  "active": "df76c91de86446f6",
   "lastOpenFiles": [
+    "Arch/X86.md",
+    "Road Map.md",
+    "README.md",
+    "Tools/Git.md",
+    "Tools/GCC.md",
+    "Arch/Image/IA32_01.png",
     "Arch/Image/i386_01.png",
     "Arch/Image",
-    "Tools/Git.md",
-    "Arch/X86.md",
     "Arch/x86",
     "Arch",
-    "Tools/GCC.md",
     "Algorithm/Algorithm.pdf",
     "Mathematics/Single Variable Calculus.pdf",
-    "README.md",
-    "Road Map.md",
     "Mathematics/Single_Variable_Calculus.pdf",
     "Mathematics/Calculus/Single Variable Calculus.pdf",
     "Algorithm",
